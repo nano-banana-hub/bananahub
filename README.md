@@ -1,8 +1,8 @@
 # bananahub
 
-Template manager for [Nanobanana](https://github.com/nano-banana-hub/nanobanana) — Gemini image generation skill.
+Template manager for [Nanobanana](https://github.com/nano-banana-hub/nanobanana) — the agent-native Gemini image workflow.
 
-Install, manage, and share prompt templates for the Nanobanana Claude Code skill.
+Install, manage, and share prompt modules for the Nanobanana Claude Code workflow. BananaHub keeps the base skill lean and lets reusable prompt structures travel as installable units.
 
 ## Installation
 
