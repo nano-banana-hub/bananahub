@@ -2,7 +2,7 @@
 
 Template manager for [Nanobanana](https://github.com/nano-banana-hub/nanobanana) — the agent-native Gemini image workflow.
 
-Install, manage, and share prompt modules for the Nanobanana Claude Code workflow. BananaHub keeps the base skill lean and lets reusable prompt structures travel as installable units.
+Install, manage, and share prompt or workflow modules for the Nanobanana Claude Code workflow. BananaHub keeps the base skill lean and lets reusable prompt structures and guided SOPs travel as installable units.
 
 ## Installation
 
@@ -87,10 +87,11 @@ bananahub trending
 
 ### `init`
 
-Scaffold a new template project in the current directory.
+Scaffold a new prompt or workflow template project in the current directory.
 
 ```bash
 bananahub init
+bananahub init --type workflow
 ```
 
 ### `validate [path]`
@@ -119,7 +120,7 @@ bananahub registry rebuild
 
 ## Template Format
 
-A valid Nanobanana template directory must contain a `template.md` file with YAML frontmatter at its root. Templates may live as:
+A valid Nanobanana template directory must contain a `template.md` file with YAML frontmatter at its root. Templates may be `type: prompt` or `type: workflow`, and may live as:
 
 - a single-template repository with `template.md` at repo root
 - a multi-template repository with `bananahub.json` plus per-template subdirectories

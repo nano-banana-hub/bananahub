@@ -20,7 +20,7 @@ ${bold('COMMANDS')}
   ${cyan('info')} <template-id>                  Show template details
   ${cyan('search')} <keyword>                    Search hub for templates (coming soon)
   ${cyan('trending')}                            Show trending templates (coming soon)
-  ${cyan('init')}                                Scaffold a new template project
+  ${cyan('init')}                                Scaffold a new prompt or workflow template project
   ${cyan('validate')} [path]                     Validate a template directory
   ${cyan('registry')} rebuild                    Rebuild local registry index
 
@@ -35,6 +35,7 @@ ${bold('EXAMPLES')}
   bananahub list
   bananahub validate ./my-template
   bananahub init
+  bananahub init --type workflow
 `;
 
 async function main() {
