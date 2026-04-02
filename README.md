@@ -1,8 +1,8 @@
 # bananahub
 
-Template manager for [Nanobanana](https://github.com/nano-banana-hub/nanobanana) — the agent-native Gemini image workflow.
+Template manager for [BananaHub Skill](https://github.com/bananahub-ai/banana-hub-skill) — the agent-native Gemini image workflow.
 
-Install, manage, and share prompt or workflow modules for the Nanobanana Claude Code workflow. BananaHub keeps the base skill lean and lets reusable prompt structures and guided SOPs travel as installable units.
+Install, manage, and share prompt or workflow modules for the BananaHub Skill workflow. BananaHub keeps the runtime lean and lets reusable prompt structures and guided SOPs travel as installable units.
 
 ## Installation
 
@@ -27,8 +27,8 @@ npx bananahub <command>
 Install template(s) from a GitHub repository, a specific template directory, or a known template collection.
 
 ```bash
-bananahub add user/nanobanana-cyberpunk
-bananahub add nano-banana-hub/nanobanana/cute-sticker
+bananahub add user/bananahub-cyberpunk
+bananahub add bananahub-ai/banana-hub-skill/cute-sticker
 bananahub add user/multi-template-repo --template portrait
 ```
 
@@ -107,7 +107,7 @@ bananahub init --type workflow
 
 ### `validate [path]`
 
-Validate a template directory against the Nanobanana template spec.
+Validate a template directory against the BananaHub template spec.
 
 ```bash
 bananahub validate ./my-template
@@ -131,7 +131,7 @@ bananahub registry rebuild
 
 ## Template Format
 
-A valid Nanobanana template directory must contain a `template.md` file with YAML frontmatter at its root. Templates may be `type: prompt` or `type: workflow`, and may live as:
+A valid BananaHub template directory must contain a `template.md` file with YAML frontmatter at its root. Templates may be `type: prompt` or `type: workflow`, and may live as:
 
 - a single-template repository with `template.md` at repo root
 - a multi-template repository with `bananahub.json` plus per-template subdirectories

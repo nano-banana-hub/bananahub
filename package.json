@@ -1,7 +1,7 @@
 {
   "name": "bananahub",
   "version": "0.1.0",
-  "description": "Template manager for Nanobanana — Gemini image generation skill",
+  "description": "Template manager for BananaHub Skill — installable Gemini workflow modules",
   "type": "module",
   "bin": {
     "bananahub": "./bin/bananahub.js"
@@ -26,11 +26,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nano-banana-hub/bananahub.git"
+    "url": "https://github.com/bananahub-ai/bananahub.git"
   },
-  "homepage": "https://github.com/nano-banana-hub/bananahub#readme",
+  "homepage": "https://github.com/bananahub-ai/bananahub#readme",
   "bugs": {
-    "url": "https://github.com/nano-banana-hub/bananahub/issues"
+    "url": "https://github.com/bananahub-ai/bananahub/issues"
   },
   "dependencies": {
     "tar": "^7.0.0"

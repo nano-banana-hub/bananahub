@@ -5,7 +5,7 @@ import { bold, dim, cyan, yellow } from '../lib/color.js';
 const VERSION = '0.1.0';
 
 const HELP = `
-${bold('bananahub')} ${dim(`v${VERSION}`)} — Template manager for Nanobanana
+${bold('bananahub')} ${dim(`v${VERSION}`)} — Template manager for BananaHub Skill
 
 ${bold('USAGE')}
   bananahub <command> [options]
@@ -31,8 +31,8 @@ ${bold('OPTIONS')}
   --version, -v             Show version
 
 ${bold('EXAMPLES')}
-  bananahub add user/nanobanana-cyberpunk
-  bananahub add nano-banana-hub/nanobanana/cute-sticker
+  bananahub add user/bananahub-cyberpunk
+  bananahub add bananahub-ai/banana-hub-skill/cute-sticker
   bananahub add user/multi-template-repo --template portrait
   bananahub search logo --curated
   bananahub trending --period 7d
