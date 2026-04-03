@@ -1,6 +1,6 @@
 # bananahub
 
-Template manager for [BananaHub Skill](https://github.com/bananahub-ai/banana-hub-skill) — the agent-native Gemini image workflow.
+Template manager for [BananaHub Skill](https://github.com/bananahub-ai/bananahub-skill) — the agent-native Gemini image workflow.
 
 Install, manage, and share prompt or workflow modules for the BananaHub Skill workflow. BananaHub keeps the runtime lean and lets reusable prompt structures and guided SOPs travel as installable units.
 
@@ -28,7 +28,7 @@ Install template(s) from a GitHub repository, a specific template directory, or 
 
 ```bash
 bananahub add user/bananahub-cyberpunk
-bananahub add bananahub-ai/banana-hub-skill/cute-sticker
+bananahub add bananahub-ai/bananahub-skill/cute-sticker
 bananahub add user/multi-template-repo --template portrait
 ```
 

@@ -32,7 +32,7 @@ ${bold('OPTIONS')}
 
 ${bold('EXAMPLES')}
   bananahub add user/bananahub-cyberpunk
-  bananahub add bananahub-ai/banana-hub-skill/cute-sticker
+  bananahub add bananahub-ai/bananahub-skill/cute-sticker
   bananahub add user/multi-template-repo --template portrait
   bananahub search logo --curated
   bananahub trending --period 7d
