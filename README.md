@@ -131,12 +131,24 @@ bananahub registry rebuild
 
 ## Template Format
 
-A valid BananaHub template directory must contain a `template.md` file with YAML frontmatter at its root. Templates may be `type: prompt` or `type: workflow`, and may live as:
+A valid BananaHub template directory must contain a `template.md` file with YAML frontmatter at its root. Published templates should declare a frontmatter `license` such as `CC-BY-4.0` and include a repo `LICENSE` file. Templates may be `type: prompt` or `type: workflow`, and may live as:
 
 - a single-template repository with `template.md` at repo root
 - a multi-template repository with `bananahub.json` plus per-template subdirectories
 - a known collection layout such as `references/templates/<template-id>/template.md`
 
+## Contributing
+
+Code, docs, and tests contributed to this repo are accepted under the repo's MIT license.
+
+Sign off each commit with the Developer Certificate of Origin:
+
+```bash
+git commit -s -m "feat: your change"
+```
+
+Template repos created with `bananahub init` default to `CC-BY-4.0` for template content. If you publish community templates, keep the template frontmatter `license` field and the repo `LICENSE` file in sync.
+
 ## License
 
-MIT
+Code in this repo is licensed under MIT.
